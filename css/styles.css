@@ -323,10 +323,10 @@ body {
     display: none;
 }
 
-.feature-list {
+/*.feature-list {
     display: flex;
     gap: 24px;
-}
+}*/
 
 .feature-tytle {
     color: #2E2F42;
