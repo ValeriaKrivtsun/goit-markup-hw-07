@@ -33,3 +33,9 @@
         padding-bottom: 120px;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+    .team > .container {
+        width: 480px;
+    }
+}
