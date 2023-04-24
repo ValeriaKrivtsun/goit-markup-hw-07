@@ -309,6 +309,11 @@
         line-height: 1.5;
     }
 
+    .feature-list {
+        display: flex;
+        flex-direction: row;
+    }
+
     .feature-item {
         flex-basis: calc((100% - 72px) / 4);
     }
