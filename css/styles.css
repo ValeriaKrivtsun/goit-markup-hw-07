@@ -120,8 +120,6 @@ body {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     text-transform: uppercase;
-    /*margin-right: 76px;*/
-    margin-left: 16px;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -250,11 +248,9 @@ body {
 
 
 .menu-open-btn {
-    /*display: block;*/
     margin-left: auto;
     border: none;
     background: transparent;
-    margin-right: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,6 +310,10 @@ body {
 .mob-menu-link:hover,
 .mob-menu-link:focus {
     fill: #404BBF;
+}
+
+.active {
+    color: #404BBF;
 }
 
 .mob-menu-contact-list {
@@ -481,7 +481,7 @@ body {
     font-family: 'Roboto',
      sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -968,7 +968,7 @@ body {
 .footer-list {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
 }
 
 .footer-item {
@@ -1001,9 +1001,6 @@ body {
     margin-left: 80px;
 }*/
 
-.footer-label {
-    margin-bottom: 16px;
-}
 
 .footer-title {
     font-family: 'Roboto';
