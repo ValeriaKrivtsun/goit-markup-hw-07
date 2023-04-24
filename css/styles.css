@@ -67,10 +67,10 @@ body {
 /* width: 1158px; */
 .container {
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+    padding: 0 16px;
     margin: 0 auto;
-    /* outline: 2px solid blue; */
 }
 
 
@@ -78,7 +78,8 @@ body {
 
 /*Header*/
 .header {
-    padding: 24px 0px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -249,16 +250,18 @@ body {
 
 
 .menu-open-btn {
-    display: block;
+    /*display: block;*/
     margin-left: auto;
     border: none;
-    /*background: transparent;*/
+    background: transparent;
     margin-right: 16px;
-    fill: #2E2F42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu-open-icon {
-    color: #2E2F42;
+    stroke: #2E2F42;
     width: 32px;
     height: 22px;
 }
