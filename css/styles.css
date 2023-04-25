@@ -693,12 +693,12 @@ body {
     margin-bottom: 0;
 }
 
-/*.company-item:hover
+.company-item:hover
 .company-icon,
 .company-item:focus
 .company-icon {
     fill: #404BBF;
-}*/
+}
 
 .company-link {
     width: 100%;
