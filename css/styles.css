@@ -281,16 +281,16 @@ body {
 }
 
 .menu-close-btn {
-    display: block;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: auto;
     margin-bottom: 32px;
     border-radius: 50%;
     background: transparent;
     border: 1px solid #E7E9FC;
-}
-
-.mob-menu-list {
-    margin-bottom: 50px;
 }
 
 .mob-menu-item:not(:last-child) {
@@ -335,8 +335,8 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
-    line-height: calc(40 / 26);
+    font-size: 36px;
+    line-height: calc(40 / 36);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #4D5AE5;
@@ -675,8 +675,8 @@ body {
 
 /*width: 168px;*/ 
 .company-item {
-    /*width: calc(100% / 2 - 16px);*/
-    flex-basis: calc((100% - 16px) / 2);
+    /*flex-basis: calc((100% - 16px) / 2);*/
+    width: 190px;
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
@@ -895,8 +895,6 @@ body {
 }
 
 .footer-logo-cont {
-    padding-left: 15px;
-    padding-right: 15px;
     margin: 0 auto;
     max-width: 268px;
     /*display: flex;
@@ -969,6 +967,10 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+
+.footer-label {
+    width: 100%;
 }
 
 .footer-item {
